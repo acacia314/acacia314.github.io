@@ -346,3 +346,25 @@ input:focus, textarea:focus {
 	float:left;
 	margin-right: 50px;
 }
+.menu {
+	position: fixed;
+	margin-top:40px;
+	margin-left:25px;
+	border-left: 2px solid #0099CC;	
+}
+.menu li {
+	margin: 10px;
+}
+.menu a {
+	font-family:Arial, Helvetica, sans-serif;
+	color:whitesmoke;
+	text-decoration: none;
+}
+.menu a:hover{
+	text-decoration: underline;
+}
+@media screen and (max-width: 1375px){
+    .menu {
+    	display:none;
+    }
+}
