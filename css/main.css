@@ -368,3 +368,8 @@ input:focus, textarea:focus {
     	display:none;
     }
 }
+@media print {
+	.menu {
+    	display:none;
+    }
+}
